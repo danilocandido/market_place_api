@@ -19,6 +19,7 @@ group :development, :test do
   gem 'rspec-rails', '~> 3.7'
   gem 'factory_bot_rails', "~> 4.0"
   gem 'faker', :git => 'https://github.com/stympy/faker.git', :branch => 'master'
+  gem 'shoulda-matchers', '~> 3.1'
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 end
 
